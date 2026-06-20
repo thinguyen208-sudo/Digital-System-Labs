@@ -30,7 +30,7 @@ Dưới đây là các tài liệu báo cáo chi tiết cho từng bài thực h
 
 * [Báo cáo Lab 1: Giới thiệu Thiết kế số](./Report/2351016_2451165_2351007_Lab1_Digital_Design.pdf)
 * [Báo cáo Lab 2: Mạch tổ hợp & Tuần tự](./Report/2351016_2451165_2351007_Lab2_Digital_Design.pdf)
-* [Báo cáo Lab 3: Bộ số học và Logic (ALU)](./Report/2351016_2451165_2351007_Lab3_Digital_Design.pdf)
+* [Báo cáo Lab 3: Bộ xử lý số thực dấu chấm động (FPU)](./Report/2351016_2451165_2351007_Lab3_Digital_Design.pdf)
 * [Báo cáo Lab 4: Kiến trúc Vi xử lý cơ bản](./Report/2351016_2451165_2351007_Lab4_Digital_Design.pdf)
 * [Báo cáo Lab 5: Processor](./Report/2351016_2451165_2351007_Lab5_Digital_Design.pdf)
 * [Báo cáo Lab 6: Processor + Bộ xử lý số thực (FPU)](./Report/2351016_2451165_2351007_Lab6_Digital_Design.pdf)
