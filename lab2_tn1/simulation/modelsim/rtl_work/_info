@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/LAB KTS/lab2_tn1/simulation/modelsim
+T_opt
+!s110 1777997017
+VoDFOSGHdckU86RS6EV=Wa3
+04 18 4 work lab2_tn1_binary_tb fast 0
+=1-70a6cc412300-69fa14d9-e7-289c
+!s124 OEM10U4 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vcomb_logic_2
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1777997016
+!i10b 1
+!s100 YGHci=mh1feBiKAV?k_Ml1
+IDb11K03b6bT7W]5Y=eShz0
+S1
+R0
+Z4 w1773331173
+Z5 8D:/LAB KTS/lab2_tn1/lab2_tn1_binary.sv
+Z6 FD:/LAB KTS/lab2_tn1/lab2_tn1_binary.sv
+!i122 0
+L0 16 32
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z9 !s108 1777997016.000000
+Z10 !s107 D:/LAB KTS/lab2_tn1/lab2_tn1_binary.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab2_tn1|D:/LAB KTS/lab2_tn1/lab2_tn1_binary.sv|
+!i113 0
+Z12 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -sv -work work {+incdir+D:/LAB KTS/lab2_tn1} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vlab2_tn1_binary
+R2
+R3
+!i10b 1
+!s100 R[SLVmf<:03H[53LRHniL0
+IBGnAKFNi`35BeC<EPOekA3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 49 22
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vlab2_tn1_binary_tb
+R2
+R3
+!i10b 1
+!s100 a>UM8dhcMaIH=Q:21=6;`1
+Ibh4jJX`7M07HAG4MTTS2Y0
+S1
+R0
+w1773239654
+8D:/LAB KTS/lab2_tn1/lab2_tn1_binary_tb.sv
+FD:/LAB KTS/lab2_tn1/lab2_tn1_binary_tb.sv
+!i122 1
+L0 3 80
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/LAB KTS/lab2_tn1/lab2_tn1_binary_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab2_tn1|D:/LAB KTS/lab2_tn1/lab2_tn1_binary_tb.sv|
+!i113 0
+R12
+R13
+R1
+vregister_2
+R2
+R3
+!i10b 1
+!s100 ;@P;BC6`l[XzC5zYaJGMa2
+IdmIhe?SQfNH`XU>N]IhW;0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
