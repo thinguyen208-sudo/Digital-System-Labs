@@ -1,0 +1,272 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/LAB KTS/lab3_r/simulation/modelsim
+T_opt
+Z1 !s110 1777907368
+V>fNLoe]N_Ma<:nLXjeKh;2
+04 9 4 work tb_lab3_r fast 0
+=1-70a6cc412300-69f8b6a8-111-1638
+!s124 OEM10U7 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vdff_ff
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1777907367
+!i10b 1
+!s100 P7WGbhd@@zz^Hz;aFj?5B0
+Iz;G3ml4c056;knaIhcNTE2
+S1
+R0
+Z5 w1774622887
+Z6 8D:/LAB KTS/lab3_r/register.sv
+Z7 FD:/LAB KTS/lab3_r/register.sv
+!i122 6
+L0 2 14
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z10 !s108 1777907367.000000
+Z11 !s107 D:/LAB KTS/lab3_r/register.sv|
+Z12 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/register.sv|
+!i113 0
+Z13 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -sv -work work {+incdir+D:/LAB KTS/lab3_r} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vlab3_r
+R3
+R4
+!i10b 1
+!s100 ]>Q^iaT2H[hn>fdX1Vc[J2
+Imch6J09T`h5BL><:>PDW=1
+S1
+R0
+w1775034219
+8D:/LAB KTS/lab3_r/lab3_r.sv
+FD:/LAB KTS/lab3_r/lab3_r.sv
+!i122 5
+L0 1 96
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/lab3_r.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/lab3_r.sv|
+!i113 0
+R13
+R14
+R2
+vlab3_wrapper
+R3
+R4
+!i10b 1
+!s100 ]^c=bKi>7@Paz>1h]H82V2
+IzX5Ef]^Nhi`QjB6N9lTgE2
+S1
+R0
+w1774623888
+8D:/LAB KTS/lab3_r/lab3_wrarper.sv
+FD:/LAB KTS/lab3_r/lab3_wrarper.sv
+!i122 7
+L0 1 35
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/lab3_wrarper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/lab3_wrarper.sv|
+!i113 0
+R13
+R14
+R2
+vprelab3_tn1
+R3
+R4
+!i10b 1
+!s100 [4M?g[`7EATP=kgKYh_<K3
+I<oPLk?L@B6?`[OgL3lMGe2
+S1
+R0
+w1775034266
+8D:/LAB KTS/lab3_r/prelab3_tn1.sv
+FD:/LAB KTS/lab3_r/prelab3_tn1.sv
+!i122 4
+L0 1 12
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/prelab3_tn1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/prelab3_tn1.sv|
+!i113 0
+R13
+R14
+R2
+vprelab3_tn2
+R3
+R4
+!i10b 1
+!s100 AdW9S;<;=IDiU4RRG7<cN2
+I7VLo0nA[j3c74kk;KeDSn2
+S1
+R0
+w1775034288
+8D:/LAB KTS/lab3_r/prelab3_tn2.sv
+FD:/LAB KTS/lab3_r/prelab3_tn2.sv
+!i122 3
+L0 1 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/prelab3_tn2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/prelab3_tn2.sv|
+!i113 0
+R13
+R14
+R2
+vprelab3_tn3
+R3
+R4
+!i10b 1
+!s100 ZSeDNLEKjiHO4mAaSKN3H2
+IHW3B031;GVDIAdEC_[h7`1
+S1
+R0
+w1774624998
+8D:/LAB KTS/lab3_r/prelab3_tn3.sv
+FD:/LAB KTS/lab3_r/prelab3_tn3.sv
+!i122 2
+L0 1 30
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/prelab3_tn3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/prelab3_tn3.sv|
+!i113 0
+R13
+R14
+R2
+vprelab3_tn4
+R3
+R4
+!i10b 1
+!s100 >0j?E;h2Remh29faD^Nf[1
+IX4>I0=FZ=fWl^:lmS`jA=1
+S1
+R0
+w1775027572
+8D:/LAB KTS/lab3_r/prelab3_tn4.sv
+FD:/LAB KTS/lab3_r/prelab3_tn4.sv
+!i122 1
+L0 1 48
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/prelab3_tn4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/prelab3_tn4.sv|
+!i113 0
+R13
+R14
+R2
+vprelab3_tn5
+R3
+R4
+!i10b 1
+!s100 WZ=b=;:1Zez7MVZHKjNfE0
+IhYHKFH^]dk=dGiUhhVU=^3
+S1
+R0
+w1774621954
+8D:/LAB KTS/lab3_r/prelab3_tn5.sv
+FD:/LAB KTS/lab3_r/prelab3_tn5.sv
+!i122 0
+L0 1 26
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/prelab3_tn5.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/prelab3_tn5.sv|
+!i113 0
+R13
+R14
+R2
+vregister
+R3
+R4
+!i10b 1
+!s100 igz7RQbz?YZZ4L_c]c_bd0
+IGMm^ZJKOUbAniQ4Q5l=Gz1
+S1
+R0
+R5
+R6
+R7
+!i122 6
+L0 19 24
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vtb_lab3_r
+R3
+R1
+!i10b 1
+!s100 ihS9O@3oRV]COd9IeWeo03
+InkD7R@>@FC`PnK74DWeJ@3
+S1
+R0
+w1774624552
+8D:/LAB KTS/lab3_r/tb_lab3_r.sv
+FD:/LAB KTS/lab3_r/tb_lab3_r.sv
+!i122 8
+L0 3 70
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/LAB KTS/lab3_r/tb_lab3_r.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab3_r|D:/LAB KTS/lab3_r/tb_lab3_r.sv|
+!i113 0
+R13
+R14
+R2

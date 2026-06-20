@@ -1,0 +1,150 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do lab3_r_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/prelab3_tn5.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/prelab3_tn5.sv 
+# -- Compiling module prelab3_tn5
+# 
+# Top level modules:
+# 	prelab3_tn5
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/prelab3_tn4.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/prelab3_tn4.sv 
+# -- Compiling module prelab3_tn4
+# 
+# Top level modules:
+# 	prelab3_tn4
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/prelab3_tn3.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/prelab3_tn3.sv 
+# -- Compiling module prelab3_tn3
+# 
+# Top level modules:
+# 	prelab3_tn3
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/prelab3_tn2.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/prelab3_tn2.sv 
+# -- Compiling module prelab3_tn2
+# 
+# Top level modules:
+# 	prelab3_tn2
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/prelab3_tn1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/prelab3_tn1.sv 
+# -- Compiling module prelab3_tn1
+# 
+# Top level modules:
+# 	prelab3_tn1
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/lab3_r.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/lab3_r.sv 
+# -- Compiling module lab3_r
+# 
+# Top level modules:
+# 	lab3_r
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/register.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/register.sv 
+# -- Compiling module dff_ff
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/lab3_wrarper.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/lab3_wrarper.sv 
+# -- Compiling module lab3_wrapper
+# 
+# Top level modules:
+# 	lab3_wrapper
+# End time: 22:09:27 on May 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab3_r {D:/LAB KTS/lab3_r/tb_lab3_r.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:09:27 on May 04,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab3_r" D:/LAB KTS/lab3_r/tb_lab3_r.sv 
+# -- Compiling module tb_lab3_r
+# 
+# Top level modules:
+# 	tb_lab3_r
+# End time: 22:09:28 on May 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_lab3_r
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_lab3_r 
+# Start time: 22:09:28 on May 04,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_lab3_r(fast)
+# Loading work.lab3_r(fast)
+# Loading work.prelab3_tn1(fast)
+# Loading work.prelab3_tn3(fast)
+# Loading work.prelab3_tn2(fast)
+# Loading work.prelab3_tn4(fast)
+# Loading work.prelab3_tn5(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# === BAT DAU MO PHONG FLOATING-POINT ADDER/SUBTRACTOR ===
+# Test 1 (1.5 + 0.75): Result = 42, Z = 0, OV = 0
+# Test 2 (5.5 - 1.25): Result = 51, Z = 0, OV = 0
+# Test 3 (Subnormal):  Result = 18, Z = 0, OV = 0
+# Test 4 (Overflow):   Result = 70, Z = 0, OV = 1
+# Test 5 (Zero Case):  Result = 00, Z = 1, OV = 0
+# === HOAN TAT MO PHONG ===
+# ** Note: $stop    : D:/LAB KTS/lab3_r/tb_lab3_r.sv(69)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_lab3_r
+# Break in Module tb_lab3_r at D:/LAB KTS/lab3_r/tb_lab3_r.sv line 69
+# End time: 22:19:13 on May 04,2026, Elapsed time: 0:09:45
+# Errors: 0, Warnings: 0
