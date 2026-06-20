@@ -22,6 +22,22 @@ Dự án được phát triển theo phương pháp Bottom-Up (thiết kế từ
 2.  **Tối ưu phần cứng:** Giảm thiểu độ trễ trên đường truyền (critical path) trong bộ nhân 8-bit.
 3.  **Kiểm thử nghiêm ngặt:** 100% các module đều vượt qua testbench với các edge-cases (trường hợp biên) trên ModelSim.
 
+## 📄 Báo cáo Kỹ thuật (Technical Reports)
+Dưới đây là các tài liệu báo cáo chi tiết cho từng bài thực hành, bao gồm phân tích lý thuyết, sơ đồ khối (RTL schematic), thiết kế FSM và kết quả mô phỏng dạng sóng (Waveforms):
+
+* [Báo cáo Lab 1: Giới thiệu Thiết kế số](./Report/2351016_2451165_2351007_Lab1_Digital_Design.pdf)
+* [Báo cáo Lab 2: Mạch tổ hợp & Tuần tự](./Report/2351016_2451165_2351007_Lab2_Digital_Design.pdf)
+* [Báo cáo Lab 3: Bộ số học và Logic (ALU)](./Report/2351016_2451165_2351007_Lab3_Digital_Design.pdf)
+* [Báo cáo Lab 4: Kiến trúc Vi xử lý cơ bản](./Report/2351016_2451165_2351007_Lab4_Digital_Design.pdf)
+* [Báo cáo Lab 5: Tích hợp Bộ nhớ (RAM/ROM)](./Report/2351016_2451165_2351007_Lab5_Digital_Design.pdf)
+* [Báo cáo Lab 6: Bộ xử lý số thực (FPU)](./Report/2351016_2451165_2351007_Lab6_Digital_Design.pdf)
+
+## 🧑‍💻 Phân công nhiệm vụ (My Contribution)
+*Dự án được thực hiện bởi nhóm 3 thành viên. Trong đó, tôi trực tiếp đảm nhiệm các phần công việc sau:*
+* *Phân tích và thiết kế kiến trúc FSM cho hệ thống điều khiển.*
+* *Viết mã nguồn Verilog/SystemVerilog cho các module... (Điền các phần bạn làm vào đây).*
+* *Xây dựng Testbench và kiểm tra độ bao phủ (Verification).*
+
 ## 📷 Hình ảnh Mô phỏng (Simulation & RTL Results)
 *(Thêm hình ảnh bằng cách kéo thả ảnh vào file README trên GitHub)*
 
