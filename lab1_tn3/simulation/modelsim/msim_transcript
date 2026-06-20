@@ -1,0 +1,100 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do lab1_tn3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab1_tn3 {D:/LAB KTS/lab1_tn3/lab1_tn3.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:36:27 on Feb 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab1_tn3" D:/LAB KTS/lab1_tn3/lab1_tn3.sv 
+# -- Compiling module lab1_tn3_wrapper
+# -- Compiling module lab1_tn3
+# -- Compiling module eight_bit_multiplier
+# -- Compiling module register_16_bit
+# -- Compiling module eight_bit_adder
+# -- Compiling module led7seg_decoder
+# -- Compiling module full_adder
+# -- Compiling module eight_bit_register
+# 
+# Top level modules:
+# 	lab1_tn3_wrapper
+# 	lab1_tn3
+# End time: 00:36:27 on Feb 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab1_tn3 {D:/LAB KTS/lab1_tn3/lab1_tn3_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:36:27 on Feb 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab1_tn3" D:/LAB KTS/lab1_tn3/lab1_tn3_tb.sv 
+# -- Compiling module lab1_tn3_tb
+# 
+# Top level modules:
+# 	lab1_tn3_tb
+# End time: 00:36:27 on Feb 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab1_tn3_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" lab1_tn3_tb 
+# Start time: 00:36:28 on Feb 27,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: D:/LAB KTS/lab1_tn3/lab1_tn3.sv(97): (vopt-2685) [TFMPC] - Too few port connections for 'add0'.  Expected 6, found 5.
+# ** Warning: D:/LAB KTS/lab1_tn3/lab1_tn3.sv(97): (vopt-2718) [TFMPC] - Missing connection for port 'V'.
+# ** Warning: D:/LAB KTS/lab1_tn3/lab1_tn3.sv(105): (vopt-2685) [TFMPC] - Too few port connections for 'add1'.  Expected 6, found 5.
+# ** Warning: D:/LAB KTS/lab1_tn3/lab1_tn3.sv(105): (vopt-2718) [TFMPC] - Missing connection for port 'V'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading sv_std.std
+# Loading work.lab1_tn3_tb(fast)
+# Loading work.lab1_tn3(fast)
+# Loading work.eight_bit_register(fast)
+# Loading work.eight_bit_multiplier(fast)
+# Loading work.eight_bit_adder(fast)
+# Loading work.full_adder(fast)
+# Loading work.register_16_bit(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'add2'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /lab1_tn3_tb/dut/Multiplier/add2 File: D:/LAB KTS/lab1_tn3/lab1_tn3.sv Line: 113
+# ** Warning: (vsim-3722) D:/LAB KTS/lab1_tn3/lab1_tn3.sv(113): [TFMPC] - Missing connection for port 'V'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'add3'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /lab1_tn3_tb/dut/Multiplier/add3 File: D:/LAB KTS/lab1_tn3/lab1_tn3.sv Line: 117
+# ** Warning: (vsim-3722) D:/LAB KTS/lab1_tn3/lab1_tn3.sv(117): [TFMPC] - Missing connection for port 'V'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'add4'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /lab1_tn3_tb/dut/Multiplier/add4 File: D:/LAB KTS/lab1_tn3/lab1_tn3.sv Line: 121
+# ** Warning: (vsim-3722) D:/LAB KTS/lab1_tn3/lab1_tn3.sv(121): [TFMPC] - Missing connection for port 'V'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'add5'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /lab1_tn3_tb/dut/Multiplier/add5 File: D:/LAB KTS/lab1_tn3/lab1_tn3.sv Line: 125
+# ** Warning: (vsim-3722) D:/LAB KTS/lab1_tn3/lab1_tn3.sv(125): [TFMPC] - Missing connection for port 'V'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'add6'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /lab1_tn3_tb/dut/Multiplier/add6 File: D:/LAB KTS/lab1_tn3/lab1_tn3.sv Line: 129
+# ** Warning: (vsim-3722) D:/LAB KTS/lab1_tn3/lab1_tn3.sv(129): [TFMPC] - Missing connection for port 'V'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : D:/LAB KTS/lab1_tn3/lab1_tn3_tb.sv(48)
+#    Time: 250 ns  Iteration: 0  Instance: /lab1_tn3_tb
+# Break in Module lab1_tn3_tb at D:/LAB KTS/lab1_tn3/lab1_tn3_tb.sv line 48
+# End time: 00:37:19 on Feb 27,2026, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 14
